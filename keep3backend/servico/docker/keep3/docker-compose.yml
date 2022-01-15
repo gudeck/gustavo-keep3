@@ -1,0 +1,6 @@
+services:
+  keep3-postgresql:
+    container_name: keep3-postgresql
+    extends:
+      file: container/postgresql.yml
+      service: keep3-postgresql

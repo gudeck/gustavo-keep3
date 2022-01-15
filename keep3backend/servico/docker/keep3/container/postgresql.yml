@@ -1,0 +1,9 @@
+services:
+  keep3-postgresql:
+    image: postgres:14.1-alpine
+    environment:
+      - POSTGRES_USER=keep3
+      - POSTGRES_PASSWORD=keep3
+      - POSTGRES_DB=keep3
+    ports:
+      - 5432:5432

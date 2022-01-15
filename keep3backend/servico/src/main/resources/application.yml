@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/keep3
+    username: keep3
+    password: keep3
+  liquibase:
+    change-log: classpath:liquibase/master.xml
