@@ -5,3 +5,5 @@ spring:
     password: keep3
   liquibase:
     change-log: classpath:liquibase/master.xml
+server:
+  port: 8081
